@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/b1a19910f9.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container-all">
+      <div class="col-container">
+        <div class="col1">
+          <h1>Billing Address</h1>
+          <label for="Fullname"
+            ><i class="fa-solid fa-user"></i>Full Name</label
+          >
+          <input
+            type="text"
+            name="Fullname"
+            required
+            placeholder="John M.Doe"
+          />
+          <label for="email"><i class="fa-solid fa-envelope"></i>Email</label>
+          <input
+            type="email"
+            name="email"
+            required
+            placeholder="John@example.com"
+          />
+          <label for="address"
+            ><i class="fa-solid fa-address-card"></i>Address</label
+          >
+          <input
+            type="text"
+            name="address"
+            required
+            placeholder="542 W. 15th Street"
+          />
+          <label for="city"><i class="fa-solid fa-city"></i>City</label>
+          <input type="text" name="city" required placeholder="New York" />
+        </div>
+        <div class="col2">
+          <h1>Payment</h1>
+          <p>Accepted cards</p>
+          <p>
+            <i class="fa-solid fa-credit-card"></i>
+            <i class="fa-regular fa-credit-card"></i>
+          </p>
+          <label for="name-on-card">Name on card</label>
+          <input
+            type="text"
+            name="name-on-card"
+            required
+            placeholder="John More Doe"
+          />
+          <label for="credit">Credit card Number</label>
+          <input
+            type="text"
+            name="Credit"
+            required
+            placeholder="1111 2222 3333 4444"
+          />
+          <label for="exp">Exp Month</label>
+          <input type="text" name="exp" required placeholder="September" />
+        </div>
+      </div>
+      <div class="row">
+        <label for="state">State</label>
+        <label for="Zip">Zip</label>
+        <label for="Exp">Exp year</label>
+        <label for="CVV">CVV</label>
+
+        <input type="text" name="state" placeholder="NY" />
+        <input type="number" name="Zip" placeholder="10001" />
+        <input type="number" name="Exp" placeholder="2018" />
+        <input type="number" name="CVV" placeholder="352" />
+        <div class="footer">
+          <p><input type="checkbox" /> Shipping address same as biling</p>
+          <button onclick="" id="submit">Continue to checkout</button>
+        </div>
+      </div>
+    </div>
+    <div class="cart-cont">
+      <div class="cart">
+        <div class="first-col">
+          <h4>Cart</h4>
+          <p>item 1</p>
+          <p>item 2</p>
+          <p>item 3</p>
+          <p>item 4</p>
+          <hr />
+          <h5>Total</h5>
+        </div>
+        <div class="second-col">
+          <h4><i class="fa-solid fa-cart-shopping"></i> 4</h4>
+          <p>15$</p>
+          <p>5$</p>
+          <p>8$</p>
+          <p>2$</p>
+          <hr />
+          <h5>30$</h5>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
